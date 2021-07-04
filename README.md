@@ -1,2 +1,2 @@
 # ChatApplication
-Real time chat application written using Node.js and Bootstrap v5
+Real time chat application written using Node.js, Socket.IO, and Bootstrap v5
