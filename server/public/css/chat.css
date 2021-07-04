@@ -1,0 +1,69 @@
+body {
+    background-color: #0A1931;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+}
+
+.noOverflow {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.container {
+    border-radius: 25px;
+    background-color: #185ADB;
+    border: 5px solid black;
+    width: 60%;
+}
+
+.chat {
+    border-radius: 20px;
+    background-color: #DDDDDD;
+    height: 30vw;
+    word-wrap: break-word;
+
+}
+
+.col {
+    padding: 0;
+}
+
+.messageInput {
+    border-radius: 40px;
+}
+
+.serverMessage {
+    text-align: left;
+    background-color: #FFC947;
+    border-radius: 20px;
+    
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 60%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.clientMessage {
+    text-align: right;
+    margin-left: 60%;
+    margin-right: 2%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 1%; 
+}
+
+.senderUsername {
+    margin-bottom: 0;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+#username {
+    margin-top: 10px;
+}
